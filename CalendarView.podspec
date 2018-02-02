@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "CalendarView"
-  s.version          = "1.1.2"
+  s.version          = "1.1.3"
   s.summary          = "A lightweight calendar view."
   s.description      = <<-DESC
                        A calendar view with a focus on:
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/n8armstrong/CalendarView.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/N8armstrong'
 
-  s.platform     = :ios, '8.3'
+  s.platform     = :ios, '10.0'
   s.requires_arc = true
 
   s.source_files = 'CalendarView/CalendarView/Classes/**/*'
@@ -34,5 +34,5 @@ Pod::Spec.new do |s|
   }
 
   s.frameworks = 'UIKit'
-  s.dependency 'SwiftMoment', '~> 0.6'
+  s.dependency 'SwiftMoment', '~> 0.7'
 end

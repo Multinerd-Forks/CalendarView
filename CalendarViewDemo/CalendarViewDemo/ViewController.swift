@@ -30,11 +30,11 @@ class ViewController: UIViewController {
 
 extension ViewController: CalendarViewDelegate {
 
-  func calendarDidSelectDate(date: Moment) {
+    func calendarDidSelectDate(_ date: Moment) {
     self.date = date
   }
 
-  func calendarDidPageToDate(date: Moment) {
+    func calendarDidPageToDate(_ date: Moment) {
     self.date = date
   }
 
